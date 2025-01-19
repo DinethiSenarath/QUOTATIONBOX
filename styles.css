@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7fafc;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .sidebar-header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-button {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  .menu-button.active {
+    background-color: #4CAF50;
+    color: #ffffff;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .quotation-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .item-list {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+
+
+  }
+  
+  .item-header,
+  .item-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .item-input {
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+  }
+  
+  .remove-item-button {
+    padding: 10px;
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-item-button:hover {
+    background-color: #c53030;
+  }
+  
+  .add-item-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-item-button:hover {
+    background-color: #57ea44;
+  }
+  
+  .totals {
+    margin-top: 20px;
+  }
+  
+  .download-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #57ea44;
+  }
+
+  .save-button {
+    padding: 10px 20px;
+    background-color: #efd009;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+  }
+  
+  .save-button:hover {
+    background-color: #b8d31b;
+  }
+
+  .logo {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    margin-bottom: 8px; /* Adds space between the logo and the text */
+  }
+  
+
+  
